@@ -10,7 +10,25 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Amanda Charlesworth</small>
+          <small>
+            {" "}
+            This project is{" "}
+            <a
+              href="https://github.com/amanda0161/dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced
+            </a>{" "}
+            and was coded by {"  "}
+            <a
+              href="https://www.urbexadventure.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Amanda Charlesworth
+            </a>
+          </small>
         </footer>
       </div>
     </div>
